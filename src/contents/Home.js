@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactTypingEffect from 'react-typing-effect';
+//import ReactTypingEffect from 'react-typing-effect';
 import profilepic from '../img/download.JPEG';
 import Social from '../components/Social'
 
@@ -10,7 +10,7 @@ class Home extends Component {
         return (
             <div className="condiv home">
             <img src={profilepic} alt="ProfilePic" className="profilepic"></img>
-            <ReactTypingEffect className="typingeffect" text={['I am Feroz Muhaiyadeen','I am a web developer']} speed={100} eraseDelay={700}/>
+            <h3>I am Feroz Muhaiyadeen.<u>I am a web developer</u></h3>
             <Social />
             </div>
             )
