@@ -42,6 +42,13 @@ nav
   align-items: center;
   
 }
+
+.pdficon
+{
+  border-radius: 25%;
+  width:75px ;
+  margin:10px;
+}
 .profilepic
 {
   border-radius: 50%;
@@ -84,10 +91,10 @@ h1,h2,h3,h4,p{
 }
 .social
 {
-  position: absolute;
+  position : center;
   margin-top: 20px;
   display: flex;
-  bottom: 60px;
+  bottom: 40px;
 }
 .social i
 {
