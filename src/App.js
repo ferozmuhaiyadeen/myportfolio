@@ -14,11 +14,13 @@ import Contact from './contents/Contact';
 
 
 
+
   ReactGA.initialize('UA-180645641-1');
-  ReactGA.pageview('/homepage');
+  ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 function App() {
+
   return (
     <Router>
     <div className="App">

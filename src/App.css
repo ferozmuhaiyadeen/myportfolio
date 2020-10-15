@@ -10,6 +10,7 @@
 {
   margin:0;
   padding: 0;
+  overflow: hidden;
 }
 body{
   font-family: 'Raleway';
@@ -43,6 +44,16 @@ nav
   
 }
 
+.edulogo
+{
+  width : 55px;
+  margin : 10px;
+}
+
+.schoollogo
+{
+  width : 75px;
+}
 .pdficon
 {
   border-radius: 25%;
@@ -93,18 +104,18 @@ h1,h2,h3,h4,p{
 {
   position : center;
   margin-top: 20px;
-  display: flex;
+  display: absolute;
   bottom: 40px;
 }
 .social i
 {
   padding-right: 30px;
   font-size: 25px;
-  color: #9a9b9c;
+  color: #fcfcfc;
 }
 .social i:hover
 {
-  color: #ffffff;
+  color: #f3e84ae7;
 }
 .widecard
 {
@@ -141,8 +152,8 @@ h1,h2,h3,h4,p{
   .sidebar
   {
     padding: 30px;
-    background: rgb(238,103,143);
-    background: linear-gradient(90deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
+    background: rgb(231, 225, 227);
+    background: linear-gradient(90deg, rgba(238,103,143,1) 50%, rgb(235, 114, 92) 80%);
   }
   .condiv
   {
@@ -184,4 +195,35 @@ h1,h2,h3,h4,p{
   100% {
     opacity: 0;
   }
+}
+
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.form-submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-submit-button:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
