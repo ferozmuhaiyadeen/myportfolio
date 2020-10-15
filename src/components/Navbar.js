@@ -22,14 +22,19 @@ class Navbar extends Component {
     render() {
         return (
             <nav>
+            <table>
+            <tr>
             <ul>
-            <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
-            <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
-            <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
-            <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
-            <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
-            <Social/>
+            <td><Social/></td>
+            <td><Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem></td>
+            <td><Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem></td>
+            <td><Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem></td>
+            <td><Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem></td>
+            <td><Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem></td>
+            
             </ul>
+            </tr>
+            </table>
             </nav>
             )
         }

@@ -23,8 +23,11 @@ function App() {
 
   return (
     <Router>
+    <header>
+    <Navbar/>
+    </header>
     <div className="App">
-    <Navbar />
+    
     <Route exact path="/">
     <Home />
     </Route>
