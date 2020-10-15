@@ -4,6 +4,7 @@ import {
   BrowserRouter as Router,
   Route,
 } from "react-router-dom";
+import ReactGA from 'react-ga';
 import Navbar from './components/Navbar';
 import Home from './contents/Home';
 import About from './contents/About';
@@ -12,6 +13,10 @@ import Skills from './contents/Skills';
 import Contact from './contents/Contact';
 
 
+function initializeReactGA() {
+  ReactGA.initialize('UA-180645641-1');
+  ReactGA.pageview('/homepage');
+}
 
 function App() {
   return (
