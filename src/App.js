@@ -13,10 +13,10 @@ import Skills from './contents/Skills';
 import Contact from './contents/Contact';
 
 
-function initializeReactGA() {
+
   ReactGA.initialize('UA-180645641-1');
   ReactGA.pageview('/homepage');
-}
+
 
 function App() {
   return (
